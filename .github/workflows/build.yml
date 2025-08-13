@@ -12,7 +12,7 @@ jobs:
 
       - name: build archive and ipaify
         run: |
-          wget -O archive.zip "https://www.dropbox.com/scl/fi/41sttu26huhcern9s5fgt/015b9d64-7864-11f0-bcd2-76ae5ae249f0.zip?rlkey=jvoal9p3j0u0jc1gobpwyzmyn&dl=1"
+          wget -O archive.zip "https://www.dropbox.com/scl/fi/v9eiapkk05f8fy6gzvn9e/218b1aca-7868-11f0-a91b-76ae5ae249f0.zip?rlkey=oc95e27qsv47e23nyv59jlozq&dl=1"
           unzip archive.zip -d .
 
           xcodebuild archive -project bopimo.xcodeproj -scheme 'bopimo' -archivePath bopimo.xcarchive -configuration Release CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
